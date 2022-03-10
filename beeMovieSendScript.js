@@ -7,6 +7,7 @@ async function enviarScript(scriptText){
 
 	for(const line of lines){
 		console.log(line)
+		consmaplf
 
 		textarea.textContent = line
 		textarea.dispatchEvent(new InputEvent("input", { bubbles: true }));
